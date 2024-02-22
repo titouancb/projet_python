@@ -5,3 +5,5 @@ print(contenu)
 for personne in contenu.json()["people"]:
     if personne['craft'] == 'ISS':
         print(personne)
+
+    
